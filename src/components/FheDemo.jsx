@@ -341,8 +341,10 @@ const FheDemo  = () => {
                         {executionTimes['decryptIntegerValue'] && <p>Total Time: {executionTimes['decryptIntegerValue']}</p>}
                         </div>
                         </div>   
-                        <div>
+                        <div >
                         <h2 className={styles.heading_fhe}>Sum operation on Integer Value Block</h2>
+                        <div className={styles.encryption_container}>
+                        <div className={styles.padding_8}>
                         <p>Block Id Sum parameter 1</p>
                         <input
                             type="text"
@@ -350,6 +352,8 @@ const FheDemo  = () => {
                             onChange={(e) => setEncryptIntegerParam1(e.target.value)}
                             className={styles.input_fhe}
                         />
+                        </div>
+                        <div className={styles.padding_8}>
                         <p>Block Id Sum parameter 2</p>
                         <input
                             type="text"
@@ -357,6 +361,8 @@ const FheDemo  = () => {
                             onChange={(e) => setEncryptIntegerParam2(e.target.value)}
                             className={styles.input_fhe}
                         />
+                        </div>
+                        </div>
                         <button
                             onClick={computeAddOperationOnEncryptedData}
                             disabled={loading || !encryptIntegerParam1 || !encryptIntegerParam2}

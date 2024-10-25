@@ -67,4 +67,9 @@
 
 .encryption_container {
     display: flex;
+    padding: 8px;
+}
+
+.padding_8 {
+    padding: 8px;
 }
