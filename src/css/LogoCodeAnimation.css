@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+#container {
+  position: flex;
+  width: 0vw;
+  height: 0vh;
+  filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+  width: 0vw;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 3.35vw;
+}

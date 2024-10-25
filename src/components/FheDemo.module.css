@@ -1,0 +1,70 @@
+.container_fhe {
+    width: 100%; /* Takes up the full width of the parent container */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background for container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Light shadow for contrast */
+    display: block;
+    flex-direction: column;
+}
+
+.button_fhe {
+    background-color: #2563eb; /* Darker blue button background */
+    color: #f0f4f8; /* Light text for readability */
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 4px;
+    border: none; /* Removes border for a cleaner look */
+    transition: background-color 0.3s ease; /* Adds smooth transition */
+}
+
+.button_fhe:hover {
+    background-color: #3b82f6; /* Slightly lighter blue on hover */
+}
+
+.button_fhe:disabled {
+    background-color: #3b4f74; /* Muted blue for disabled state */
+    color: #a1a1aa; /* Muted light color for disabled text */
+}
+
+.input_fhe {
+    padding: 8px;
+    margin: 8px 0;
+    background-color: #2e2e2e; /* Dark background for inputs */
+    border: 1px solid #4b5563; /* Dark border for input */
+    color: #f9fafb; /* Light text color */
+    border-radius: 4px;
+    outline: none;
+}
+
+.input_fhe:focus {
+    border-color: #3b82f6; /* Blue border on focus */
+    box-shadow: 0 0 4px rgba(59, 130, 246, 0.5); /* Subtle blue shadow on focus */
+}
+
+.heading_fhe {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 16px;
+    color: #e5e7eb; /* Light color for headings */
+}
+
+.a_fhe {
+    color: #3b82f6; /* Bright blue for visibility on dark background */
+    text-decoration: underline; /* Underline to make it clear it’s a link */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.a_fhe:hover {
+    color: #60a5fa; /* Lighter blue on hover */
+    text-decoration: none; /* Remove underline on hover for a subtle effect */
+}
+
+.a_fhe:focus {
+    outline: 2px solid #60a5fa; /* Outline for accessibility when focused */
+}
+
+.encryption_container {
+    display: flex;
+}
