@@ -283,9 +283,14 @@ const FheDemo  = () => {
                 <>
                     <div>
                     <p>
-                        <b>AO FHE Block Process Id:</b> 
-                        {import.meta.env.VITE_APP_AO_FHE_PROCESS_ID} &nbsp;
-                        <a className={styles.a_fhe} target='_blank' rel="norefferer" href={'https://www.ao.link/#/entity/' + import.meta.env.VITE_APP_AO_FHE_PROCESS_ID}>View Process In AO</a>
+                        <b>AO FHE Processor Block Process Id:</b> 
+                        {import.meta.env.VITE_APP_AO_FHE_PROCESSOR_ID} &nbsp;
+                        <a className={styles.a_fhe} target='_blank' rel="norefferer" href={'https://www.ao.link/#/entity/' + import.meta.env.VITE_APP_AO_FHE_PROCESSOR_ID}>View Process In AO</a>
+                    </p>
+                    <p>
+                        <b>AO FHE Storage Block Process Id:</b> 
+                        {import.meta.env.VITE_APP_AO_FHE_STORAGE_ID} &nbsp;
+                        <a className={styles.a_fhe} target='_blank' rel="norefferer" href={'https://www.ao.link/#/entity/' + import.meta.env.VITE_APP_AO_FHE_STORAGE_ID}>View Process In AO</a>
                     </p>
                     </div>
                     <button onClick={toggleConnection} className={styles.button_fhe}>

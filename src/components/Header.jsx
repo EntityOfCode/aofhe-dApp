@@ -21,14 +21,6 @@ const Header = () => {
         <a href={import.meta.env.VITE_APP_AO_URL} target="_blank">
           <span className="md:mr-20 mr-10 hover:text-red-500">AO</span>
         </a>
-        {/* <a href={import.meta.env.VITE_APP_X_URL}>
-          <span className="md:mr-20 mr-10 hover:text-red-500">Twitter/X</span>
-        </a>
-        <a href={import.meta.env.VITE_APP_DISCORD_HUB_URL}>
-          <span className="md:mr-20 mr-10 hover:text-red-500">
-            Discord-Research-Hub
-          </span>
-        </a> */}
       </div>
     </div>
   );
